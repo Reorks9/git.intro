@@ -1,0 +1,16 @@
+echo "start"
+cat <<EOF > index.html
+<html>
+    <head>
+        <title>Welcome to job1 for deploy!</title>
+    </head>
+    <body>
+        <h1>Success!  job1 for deploy is working!</h1>
+        <h2>Success!  job1 for deploy is working with plugin Publish Over SSH </h2>
+        <h2>Success!  GIT__________</h2>
+    </body>
+</html>
+EOF
+echo "Finish"
+ls -la
+echo -e "____________________DEPLOY_________________ `pwd`\n`$home`"
